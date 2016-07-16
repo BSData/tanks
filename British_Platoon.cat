@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="eea8-47a5-f999-2ec2" revision="2" gameSystemId="dcae-d466-7fc2-0d70" gameSystemRevision="1" battleScribeVersion="1.15" name="British Platoon" authorName="Charles" authorContact="gorka_morka@hotmail.co.uk" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="009b-29eb-0b3b-9d1f" name="Comet" points="29.0" categoryId="cdf8-de53-d13e-0639" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a6a4-a596-edbd-4778" profileTypeId="1608-9b63-32a3-014d" name="Comet" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="69d0-b24a-3442-a3ef" name="Crew Slots" value="4"/>
+            <characteristic characteristicId="0f1a-0bd2-879f-d5c7" name="Initiative" value="7"/>
+            <characteristic characteristicId="99d0-f1c5-bfb4-bd7b" name="Attack" value="5"/>
+            <characteristic characteristicId="be63-ff64-ba5b-c1a7" name="Defence" value="1"/>
+            <characteristic characteristicId="069f-fec8-3c05-5536" name="Hull" value="6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="49a3-6013-38a7-31b7" targetId="7e76-da1b-ed98-99d6" linkType="entry group">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="009b-29eb-0b3b-9d1f" incrementChildId="75ca-1327-3879-1bc7" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="d65e-2981-2a9d-b207" targetId="2428-4f6c-fae2-dd78" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="c9c8-7474-a318-b04a" targetId="4bda-64fa-37c1-f5fb" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="9785-bb6a-ba67-4e31" targetId="7bab-0b86-2b2f-f802" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="3a24-9877-93f3-0977" targetId="637d-616a-48cb-3b07" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="421f-e437-8133-9a7b" targetId="4294-34f5-4fa4-25e1" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="5f16-a75d-48b4-ee0b" targetId="70d8-34f5-088a-1249" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e8ce-6c1b-7561-c973" name="Cromwell" points="23.0" categoryId="fc2b-9556-8cef-3500" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="167c-d718-9313-8aa7" profileTypeId="1608-9b63-32a3-014d" name="Cromwell" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="69d0-b24a-3442-a3ef" name="Crew Slots" value="4"/>
+            <characteristic characteristicId="0f1a-0bd2-879f-d5c7" name="Initiative" value="8"/>
+            <characteristic characteristicId="99d0-f1c5-bfb4-bd7b" name="Attack" value="4"/>
+            <characteristic characteristicId="be63-ff64-ba5b-c1a7" name="Defence" value="2"/>
+            <characteristic characteristicId="069f-fec8-3c05-5536" name="Hull" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d575-e545-9295-7815" targetId="b727-97b0-14bd-9c81" linkType="entry group">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="e8ce-6c1b-7561-c973" incrementChildId="75ca-1327-3879-1bc7" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="489f-1ec3-8248-166a" targetId="2428-4f6c-fae2-dd78" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="4210-1919-2796-421b" targetId="4bda-64fa-37c1-f5fb" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="420b-51a7-090e-0448" targetId="7bab-0b86-2b2f-f802" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="e5c4-23a1-6e24-6037" targetId="637d-616a-48cb-3b07" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6f40-d465-0cc4-9f31" targetId="4294-34f5-4fa4-25e1" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="696b-162a-4e83-fffb" targetId="70d8-34f5-088a-1249" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5a8d-be6d-9166-d920" name="Sherman Firefly" points="21.0" categoryId="cc25-29b4-5371-ef53" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="bbe8-db25-89a7-685c" profileTypeId="1608-9b63-32a3-014d" name="Sherman Firefly" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="69d0-b24a-3442-a3ef" name="Crew Slots" value="3"/>
+            <characteristic characteristicId="0f1a-0bd2-879f-d5c7" name="Initiative" value="5"/>
+            <characteristic characteristicId="99d0-f1c5-bfb4-bd7b" name="Attack" value="5"/>
+            <characteristic characteristicId="be63-ff64-ba5b-c1a7" name="Defence" value="1"/>
+            <characteristic characteristicId="069f-fec8-3c05-5536" name="Hull" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ffd6-7742-47d1-9a56" targetId="7e76-da1b-ed98-99d6" linkType="entry group">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="5a8d-be6d-9166-d920" incrementChildId="75ca-1327-3879-1bc7" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="6876-98d1-0127-dcb3" targetId="2428-4f6c-fae2-dd78" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="7d2a-0a56-f4a4-eb9d" targetId="4bda-64fa-37c1-f5fb" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="38ef-b7c2-a497-af41" targetId="7bab-0b86-2b2f-f802" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="883a-26c2-3e80-35eb" targetId="637d-616a-48cb-3b07" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c9f2-45d1-acf2-3ed3" targetId="57b3-90d9-70f5-e943" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4588-e87e-8e94-e2a2" name="Sherman V" points="15.0" categoryId="aefe-3643-2eba-d2d4" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2c30-8790-7171-4ba5" profileTypeId="1608-9b63-32a3-014d" name="Sherman V" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="69d0-b24a-3442-a3ef" name="Crew Slots" value="4"/>
+            <characteristic characteristicId="0f1a-0bd2-879f-d5c7" name="Initiative" value="5"/>
+            <characteristic characteristicId="99d0-f1c5-bfb4-bd7b" name="Attack" value="4"/>
+            <characteristic characteristicId="be63-ff64-ba5b-c1a7" name="Defence" value="1"/>
+            <characteristic characteristicId="069f-fec8-3c05-5536" name="Hull" value="4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="08ec-6fef-915d-382d" targetId="b727-97b0-14bd-9c81" linkType="entry group">
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="4588-e87e-8e94-e2a2" incrementChildId="75ca-1327-3879-1bc7" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="5bf5-f2c1-dbe8-4d8b" targetId="2428-4f6c-fae2-dd78" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="9a95-329b-79bb-4db0" targetId="4bda-64fa-37c1-f5fb" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="c336-f57f-f630-0134" targetId="7bab-0b86-2b2f-f802" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="4007-5960-9ba3-bba2" targetId="637d-616a-48cb-3b07" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3617-db89-eb1d-49b7" targetId="4294-34f5-4fa4-25e1" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries>
+    <entry id="fefb-f2cb-ce67-6f8e" name="Add-on Armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="24b2-dce4-09bd-02ed" profileTypeId="3ea3-8341-e8bf-1773" name="Add-on Armour" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1535-b8f4-bb51-61a6" name="Upgrade: Armour Ability" value="-1 Initiative. Loses the Fast keyword. When defending this tank may re-roll any one Defence die."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="f4b7-50b9-c3a8-cf21" name="Agressive Commander" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b52f-41f8-d7f7-aee1" profileTypeId="8482-2824-696e-d5ce" name="Agressive Commander" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2c97-7aef-546c-7aab" name="Crew: Commander Ability" value="+1 Initiative in the Shooting Phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="30e7-0bff-9336-d48c" name="Agressive Loader" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a714-ce42-6c56-a674" profileTypeId="3565-f1dc-14d1-0df3" name="Agressive Loader" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="be71-fe7b-ddb7-34f3" name="Crew: Loader Ability" value="+1 Initiative in the Shooting Phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="21e7-7571-3e7e-e29c" name="Bigger Hammer" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c9af-8359-7bc8-1e1c" profileTypeId="f4f0-84f0-0dd9-c893" name="Bigger Hammer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="99aa-04d2-4179-4567" name="Upgrade: Equipment Ability" value="Discard to cancel a Busted Track, Damaged Engine, or Jammed Turret effect."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="2f64-1f57-de88-27fd" name="Bloodthirsty Gunner" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7c4c-d334-ad56-22f7" profileTypeId="a30c-26b6-2664-539a" name="Bloodthirsty Gunner" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="677f-3696-69cc-30fe" name="Crew: Gunner Ability" value="+1 Attack if target at Short Range."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d027-d9bd-b89a-78da" name="Camouflage Netting" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d907-e3c2-ec8a-350e" profileTypeId="3ea3-8341-e8bf-1773" name="Camouflage Netting" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1535-b8f4-bb51-61a6" name="Upgrade: Armour Ability" value="+1 Defence if stationary. Discard this card the first time this tank takes damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="64dd-a2cd-f0d5-11fc" name="Cleaver Loader" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3b76-55ed-79ea-9fdb" profileTypeId="3565-f1dc-14d1-0df3" name="Cleaver Loader" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="be71-fe7b-ddb7-34f3" name="Crew: Loader Ability" value="If you discard an Ammo Upgrade card when shooting, but do not score and Hits or Critical Hits, return the Upgrade card to the tank."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c5e5-bad9-c85e-bb03" name="Concrete Armour" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="4128-0bef-1087-5a71" profileTypeId="3ea3-8341-e8bf-1773" name="Concrete Armour" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1535-b8f4-bb51-61a6" name="Upgrade: Armour Ability" value="Loses the Fast keyword. Discard to cancel a Critical Hit."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="7c95-1dd0-a1ba-c453" name="Cunning Commander" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6a61-13f3-6637-e928" profileTypeId="8482-2824-696e-d5ce" name="Cunning Commander" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2c97-7aef-546c-7aab" name="Crew: Commander Ability" value="+1 Initiative in the Movement Phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="7fbe-4f90-9d73-d876" name="Cunning Driver" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="be42-6299-5381-b146" profileTypeId="3927-7310-5562-b500" name="Cunning Driver" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c69e-64e6-e0fa-3b6f" name="New Characteristic" value="+1 Initiative in the Movement Phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="ab2f-f230-4f5a-0d8e" name="Dead-Eye Gunner" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="aa3a-cad7-c856-5c8a" profileTypeId="a30c-26b6-2664-539a" name="Dead-Eye Gunner" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="677f-3696-69cc-30fe" name="Crew: Gunner Ability" value="This tank may upgrade one uncancelled Hit to a Critical Hit"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3096-1d77-158e-91fe" name="Deadly Gunner" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d3e2-9f33-09f7-0858" profileTypeId="a30c-26b6-2664-539a" name="Deadly Gunner" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="677f-3696-69cc-30fe" name="Crew: Gunner Ability" value="if this tank scores any uncancelled Critical Hits, you may exchange one Critical Hit for two Hits."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="f1ca-e34c-e951-e368" name="Extra Ammunition" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e019-9fa7-a6ad-41c6" profileTypeId="da49-5409-84bf-5584" name="Extra Ammunition" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="217f-e003-7202-1fb0" name="Ammo Ability" value="Discard this card to re-roll all of your Attack dice. If this tank takes an uncancelled Hit, the shooting player may upgrade the first uncancelled Hit to a Critical hit."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c49f-749f-3ea6-0a3c" name="Fire Extinguisher" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="eb46-7a33-92b4-72a5" profileTypeId="f4f0-84f0-0dd9-c893" name="Fire Extinguisher" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="99aa-04d2-4179-4567" name="Upgrade: Equipment Ability" value="Discard to cancel a Engine Fire effect."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="eddd-ea3c-4e72-b627" name="Hasty Loader" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="acef-4844-c936-7d02" profileTypeId="3565-f1dc-14d1-0df3" name="Hasty Loader" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="be71-fe7b-ddb7-34f3" name="Crew: Loader Ability" value="+2 Initiative in the Shooting Phase. -1 Initiative in the Movement Phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c00a-7037-586a-5c0f" name="Improvised Armour" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1041-375a-83ee-93e6" profileTypeId="3ea3-8341-e8bf-1773" name="Improvised Armour" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1535-b8f4-bb51-61a6" name="Upgrade: Armour Ability" value="Loses the Fast keyword. +1 Hull."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="343b-76aa-819b-0539" name="Liquid Courage" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="bef0-9598-f52e-c9f0" profileTypeId="f4f0-84f0-0dd9-c893" name="Liquid Courage" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="99aa-04d2-4179-4567" name="Upgrade: Equipment Ability" value="This tank may re-roll failed Repair rolls for Bailed Out, Shell Shocked, and Stunned Crew."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="9c32-c2b8-be3b-4989" name="Medical Kit" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="71e1-adbc-6fc7-4bb5" profileTypeId="f4f0-84f0-0dd9-c893" name="Medical Kit" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="99aa-04d2-4179-4567" name="Upgrade: Equipment Ability" value="Discard to cancel an Injured Crew effect."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="1599-fd3a-1edd-5d9f" name="Precise Commander" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f86a-0929-19ab-a97b" profileTypeId="8482-2824-696e-d5ce" name="Precise Commander" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2c97-7aef-546c-7aab" name="Crew: Commander Ability" value="You may re-roll one Attack die per turn."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="fa78-3905-f703-317c" name="Precise Loader" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5b17-48e8-7df6-8b45" profileTypeId="3565-f1dc-14d1-0df3" name="Precise Loader" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="be71-fe7b-ddb7-34f3" name="Crew: Loader Ability" value="You may re-roll one Attack die per turn."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="103f-b0a9-3abf-649e" name="Racing Driver" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d86a-310a-240a-f1fa" profileTypeId="3927-7310-5562-b500" name="Racing Driver" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c69e-64e6-e0fa-3b6f" name="New Characteristic" value="+2 Initiative in the Movement Phase. -1 Initiative in the Shooting Phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a3d0-48e2-1cb6-f1f0" name="Radio Coordinator" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="147a-dd7f-9af2-3707" profileTypeId="4197-65d7-a914-50b9" name="Radio Coordinator" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c829-59ff-13e5-c078" name="Crew: Radio Op Ability" value="During the Shooting Phase, another frendly tank gains this tank&apos;s Initiative."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="75ca-1327-3879-1bc7" name="Resourceful Loader" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3616-21d6-3be4-7b9b" profileTypeId="3565-f1dc-14d1-0df3" name="Resourceful Loader" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="be71-fe7b-ddb7-34f3" name="Crew: Loader Ability" value="This tank may have two of the same Ammo Upgrade cards. you may only use one of these each turn."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="81f0-48e0-a61a-13ba" name="Sandbag Armour" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9ca6-1ebb-c1b9-1415" profileTypeId="3ea3-8341-e8bf-1773" name="Sandbag Armour" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="1535-b8f4-bb51-61a6" name="Upgrade: Armour Ability" value="Discard this card to re-roll all of your Defense dice."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a14a-9e1b-c951-7d3d" name="Sharpshooter Gunner" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="cf38-e034-ce9a-ee38" profileTypeId="a30c-26b6-2664-539a" name="Sharpshooter Gunner" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="677f-3696-69cc-30fe" name="Crew: Gunner Ability" value="When drawing Critical cards for the first uncancelled Critical Hit scored by this tank, draw one additional card. The attacking player chooses one of thoes Critical cards to discard."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="aa1a-f317-0ac2-e0e7" name="Super-velocity Shot" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8fe3-a5e8-583b-e563" profileTypeId="da49-5409-84bf-5584" name="Super-velocity Shot" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="217f-e003-7202-1fb0" name="Ammo Ability" value="Discard to gain +2 Attack. Treat all rolls of 4 as a miss. can only be used on Comet and Sherman Firefly"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="18c2-6f1b-2392-16e1" name="Superb Commander" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9854-caed-d19b-e0ba" profileTypeId="8482-2824-696e-d5ce" name="Superb Commander" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2c97-7aef-546c-7aab" name="Crew: Commander Ability" value="+1 Initiative."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="e565-6558-301c-6d42" name="Supercharger" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d55e-9cf9-cffe-a826" profileTypeId="5abf-51c8-4787-8409" name="Supercharger" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="ee41-6082-4210-e823" name="Upgrade: Engine Ability" value="Discard to gain Fast for this Movement Phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1ad5-529a-26b6-a862" targetId="70d8-34f5-088a-1249" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="370c-30e5-b9e2-dd0f" name="Tool Kit" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="fc39-cc0c-913d-cc48" profileTypeId="f4f0-84f0-0dd9-c893" name="Tool Kit" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="99aa-04d2-4179-4567" name="Upgrade: Equipment Ability" value="This tank may re-roll failed Repair rolls for Busted Track, Damaged Engine, and Jammed Turret."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+  </sharedEntries>
+  <sharedEntryGroups>
+    <entryGroup id="57b3-90d9-70f5-e943" name="Crew (3)" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="6e6f-18a0-cfbd-19fb" targetId="4e7d-4838-3326-7977" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d8b0-97b8-e97c-aaee" targetId="bbf6-edaa-b154-a0fa" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="9998-312d-15c2-8915" targetId="5557-0c19-5568-7bb2" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="6557-25e7-ba1d-6275" targetId="cfa5-dd84-9cf0-9efa" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="69ff-29e1-e931-4f80" targetId="8f17-d297-ee6f-b5ee" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="4294-34f5-4fa4-25e1" name="Crew (4)" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="be88-0ff1-1820-3291" targetId="5557-0c19-5568-7bb2" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="ec68-e35c-4c29-7a42" targetId="cfa5-dd84-9cf0-9efa" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="08d1-95b1-96b7-235d" targetId="bbf6-edaa-b154-a0fa" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="b988-9795-3da3-edf9" targetId="8f17-d297-ee6f-b5ee" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="f79f-09ea-da11-6dfe" targetId="4e7d-4838-3326-7977" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="cfa5-dd84-9cf0-9efa" name="Crew: Commander" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="e62c-ce47-9243-e97f" targetId="f4b7-50b9-c3a8-cf21" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a633-f9b9-d6e3-52bd" targetId="7c95-1dd0-a1ba-c453" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9dd7-e500-0716-57cd" targetId="18c2-6f1b-2392-16e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="997c-7d1d-dbdb-693b" targetId="1599-fd3a-1edd-5d9f" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="4e7d-4838-3326-7977" name="Crew: Driver" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="dd74-c851-459d-ad64" targetId="103f-b0a9-3abf-649e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a4b0-94fc-278a-86f0" targetId="7fbe-4f90-9d73-d876" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="5557-0c19-5568-7bb2" name="Crew: Gunner" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="6442-361b-f9ce-a584" targetId="2f64-1f57-de88-27fd" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4b89-7e53-4577-b259" targetId="a14a-9e1b-c951-7d3d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2fc4-fd95-86c1-0756" targetId="ab2f-f230-4f5a-0d8e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b3a8-d740-d4b9-55cc" targetId="3096-1d77-158e-91fe" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="8f17-d297-ee6f-b5ee" name="Crew: Loader" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="2186-66c7-8a44-8506" targetId="75ca-1327-3879-1bc7" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="84dd-8f22-c9d5-3de3" targetId="64dd-a2cd-f0d5-11fc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e6b2-0137-0f17-11e6" targetId="eddd-ea3c-4e72-b627" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a9f8-10ee-c7cf-755c" targetId="30e7-0bff-9336-d48c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="494f-771f-7ce9-6967" targetId="fa78-3905-f703-317c" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="bbf6-edaa-b154-a0fa" name="Crew: Radio Op" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="fa14-17a1-d627-e3f0" targetId="a3d0-48e2-1cb6-f1f0" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="b727-97b0-14bd-9c81" name="Upgrade: Ammo" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="8c1d-1804-2b55-c295" targetId="f1ca-e34c-e951-e368" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="7e76-da1b-ed98-99d6" name="Upgrade: Ammo" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="0fcc-8c80-95f4-54ce" targetId="f1ca-e34c-e951-e368" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="75f2-bf6e-511e-b80f" targetId="aa1a-f317-0ac2-e0e7" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="4bda-64fa-37c1-f5fb" name="Upgrade: Armour" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="8e10-2647-f400-bb62" targetId="81f0-48e0-a61a-13ba" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c0e4-8bd7-a265-7554" targetId="c00a-7037-586a-5c0f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2ec6-cdaf-8e58-1ac6" targetId="c5e5-bad9-c85e-bb03" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="caf2-6ce3-4f00-0385" targetId="d027-d9bd-b89a-78da" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="195c-b13c-ec81-c19f" targetId="fefb-f2cb-ce67-6f8e" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="7bab-0b86-2b2f-f802" name="Upgrade: Engine" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="3afe-d4d9-0784-0dd5" targetId="e565-6558-301c-6d42" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="2428-4f6c-fae2-dd78" name="Upgrade: Equipment" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="6ae4-01a5-ebd6-4681" targetId="c49f-749f-3ea6-0a3c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4969-4be0-5058-d318" targetId="9c32-c2b8-be3b-4989" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="deb0-1848-e8de-da53" targetId="21e7-7571-3e7e-e29c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="baa6-b1e5-28ac-3d6c" targetId="370c-30e5-b9e2-dd0f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1536-0527-c070-c7c8" targetId="343b-76aa-819b-0539" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+  </sharedEntryGroups>
+  <sharedRules>
+    <rule id="e242-8522-ef2a-7674" name="Assault Gun" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="19ea-115a-c70f-b3a5" name="Blitzkrieg" hidden="false">
+      <description>This tank may make a single Move instead of making a Repair Damage roll in the Command Phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="70d8-34f5-088a-1249" name="Fast" hidden="false">
+      <description>Tank may make up to three Moves.</description>
+      <modifiers/>
+    </rule>
+    <rule id="fe7a-6bf7-5175-abf1" name="Gung Ho" hidden="false">
+      <description>Treat this tank as making one less Move than shown on its Speed token when calculating its target&apos;s Defence dice.</description>
+      <modifiers/>
+    </rule>
+    <rule id="637d-616a-48cb-3b07" name="Semi-Indirect Fire" hidden="false">
+      <description>The player may choose to keep one of their die results and re-roll the rest when Shooting while Stationary with this tank.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
