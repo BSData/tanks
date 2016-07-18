@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6371-3ea3-aa04-bb40" revision="4" gameSystemId="dcae-d466-7fc2-0d70" gameSystemRevision="1" battleScribeVersion="1.15" name="German Platoon" authorName="Charles" authorContact="gorka_morka@hotmail.co.uk" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6371-3ea3-aa04-bb40" revision="5" gameSystemId="dcae-d466-7fc2-0d70" gameSystemRevision="1" battleScribeVersion="1.15" name="German Platoon" authorName="Charles" authorContact="gorka_morka@hotmail.co.uk" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8caf-e3a0-6c9a-0c17" name="Jagdpanther" points="35.0" categoryId="ab5c-5648-344c-1f22" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -135,113 +135,7 @@
     </entry>
     <entry id="ccd4-a713-d189-234b" name="StuG G" points="15.0" categoryId="b321-94f1-cb73-712c" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups>
-        <entryGroup id="b3a8-dc87-1332-0469" name="Crew (3)" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="3b57-d3e9-2bdb-3e28" name="Crew: Commander" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="10ab-8029-872c-33d7" targetId="f4b7-50b9-c3a8-cf21" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="bf5c-943b-acef-38ac" targetId="7c95-1dd0-a1ba-c453" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="c3a8-3d3d-3646-36a7" targetId="18c2-6f1b-2392-16e1" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="8943-f881-e518-3094" targetId="1599-fd3a-1edd-5d9f" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="56a6-d2f5-3209-97a4" targetId="dda6-f151-6313-952d" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="8e61-c76c-b95f-242a" targetId="93ad-32a2-70aa-907c" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="4afe-41d2-a1ab-9b3b" targetId="56ab-6fc4-b145-4e11" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="5eed-db51-adff-2214" targetId="3743-f2d4-7414-b66d" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-            <entryGroup id="02b5-c7a7-7c2a-6756" name="Crew: Driver" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="9cf0-0261-bce4-d6fc" targetId="103f-b0a9-3abf-649e" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="cb4d-7391-7bda-3af7" targetId="7fbe-4f90-9d73-d876" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-            <entryGroup id="3694-234d-be8a-f5db" name="Crew: Gunner" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="671e-5202-7f04-70fd" targetId="2f64-1f57-de88-27fd" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="3887-55a2-e977-4a80" targetId="a14a-9e1b-c951-7d3d" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="3b9e-6125-9483-53ba" targetId="ab2f-f230-4f5a-0d8e" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="2a68-913b-6bee-f40b" targetId="fb1b-081c-eac0-71c4" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="fc22-762c-2691-1931" targetId="3096-1d77-158e-91fe" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-            <entryGroup id="6c75-d48a-4a89-7b58" name="Crew: Loader" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="41ff-fc69-1124-ba26" targetId="75ca-1327-3879-1bc7" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="fb07-2599-7de5-37ac" targetId="64dd-a2cd-f0d5-11fc" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="0421-ff35-f489-b85d" targetId="eddd-ea3c-4e72-b627" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="5178-9e0c-c086-ba14" targetId="30e7-0bff-9336-d48c" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="496d-3ff6-c026-52b4" targetId="fa78-3905-f703-317c" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-            <entryGroup id="e388-c680-9da4-c645" name="Crew: Radio Op" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="c292-31eb-448f-17e8" targetId="a3d0-48e2-1cb6-f1f0" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
@@ -278,6 +172,9 @@
           <modifiers/>
         </link>
         <link id="4752-a9d7-5b5e-e3d5" targetId="e242-8522-ef2a-7674" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3797-995e-7359-4e95" targetId="feca-21b8-51cb-e7c8" linkType="entry group">
           <modifiers/>
         </link>
       </links>
