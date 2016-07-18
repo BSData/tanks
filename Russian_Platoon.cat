@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3861-d9ee-3f50-0f6c" revision="3" gameSystemId="dcae-d466-7fc2-0d70" gameSystemRevision="1" battleScribeVersion="1.15" name="Russian Platoon" authorName="Charles" authorContact="gorka_morka@hotmail.co.uk" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3861-d9ee-3f50-0f6c" revision="4" gameSystemId="dcae-d466-7fc2-0d70" gameSystemRevision="1" battleScribeVersion="1.15" name="Russian Platoon" authorName="Charles" authorContact="gorka_morka@hotmail.co.uk" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="bcec-0d33-3ea8-43b5" name="IS-2" points="38.0" categoryId="8a00-b44d-a89c-fc04" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -424,7 +424,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="28d3-0836-036a-195d" name="Arrowhead Shot" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="28d3-0836-036a-195d" name="Arrowhead Shot" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -432,7 +432,7 @@
       <profiles>
         <profile id="3510-e4d8-bebe-c148" profileTypeId="da49-5409-84bf-5584" name="Arrowhead Shot" hidden="false">
           <characteristics>
-            <characteristic characteristicId="217f-e003-7202-1fb0" name="Ammo Ability" value="Discard to gain +1 Attack against a  target at Close Range. Can only be used on T-34, T-34/85, adn SU-85."/>
+            <characteristic characteristicId="217f-e003-7202-1fb0" name="Ammo Ability" value="Discard to gain +1 Attack against a target at Close Range. Can only be used on T-34, T-34/85, and SU-85."/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -818,6 +818,81 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="70e5-ee8b-fd50-43e1" name="• Alexander Oskin" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7673-4c50-d77b-fccb" profileTypeId="8482-2824-696e-d5ce" name="• Alexander Oskin" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2c97-7aef-546c-7aab" name="Crew: Commander Ability" value="+2 Initiative in the Shooting Phase. When stationary, this tank may upgrade two uncancelled Hits to Critical hits each phaase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="9f9d-ca91-05c2-f2db" name="• Zinoviy Kolobanov" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ef99-33a5-8dde-1f8f" profileTypeId="8482-2824-696e-d5ce" name="• Zinoviy Kolobanov" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2c97-7aef-546c-7aab" name="Crew: Commander Ability" value="+3 Initiative during the movement phase. At the Start of the game this tank and another tank within close range may make a single move."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="40f7-83ed-8012-7263" name="• Vasiliy Storozhenko" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="eb57-05c7-2c90-1cbe" profileTypeId="8482-2824-696e-d5ce" name="• Vasiliy Storozhenko" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2c97-7aef-546c-7aab" name="Crew: Commander Ability" value="+2 Initiative. At the start of each phase, choose one other friendly tank within a Measureing Stick to gain +1 Initiative for that phase."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="5cdf-8e95-9f3c-49e2" name="• Mariya Oktyabrskaya" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3fdd-4679-4eff-70ab" profileTypeId="3927-7310-5562-b500" name="• Mariya Oktyabrskaya" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c69e-64e6-e0fa-3b6f" name="New Characteristic" value="This tank has Defence 2 until the end of turn when moving. Automatically Repair Busted Track effects."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="fcb5-1cf5-28d5-1049" name="• Vasily Krysov" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="46bb-6d2f-e9f4-2c43" profileTypeId="3927-7310-5562-b500" name="• Vasily Krysov" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c69e-64e6-e0fa-3b6f" name="New Characteristic" value="+2 Initiative. You can re-roll one Defence Die for each move you made this turn."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="a5fe-8ac8-281b-a8bf" name="Crew (3)" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -881,6 +956,15 @@
         <link id="997c-7d1d-dbdb-693b" targetId="1599-fd3a-1edd-5d9f" linkType="entry">
           <modifiers/>
         </link>
+        <link id="0b32-3391-4f83-9c1e" targetId="40f7-83ed-8012-7263" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="52e0-c60f-cae4-aab0" targetId="70e5-ee8b-fd50-43e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5a46-b8a6-efae-e6e6" targetId="9f9d-ca91-05c2-f2db" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
     <entryGroup id="4e7d-4838-3326-7977" name="Crew: Driver" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -892,6 +976,12 @@
           <modifiers/>
         </link>
         <link id="a4b0-94fc-278a-86f0" targetId="7fbe-4f90-9d73-d876" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5bca-d635-8c06-9e70" targetId="fcb5-1cf5-28d5-1049" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="db88-49f9-7a82-c6f8" targetId="5cdf-8e95-9f3c-49e2" linkType="entry">
           <modifiers/>
         </link>
       </links>
