@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eea8-47a5-f999-2ec2" revision="4" gameSystemId="dcae-d466-7fc2-0d70" gameSystemRevision="1" battleScribeVersion="1.15" name="British Platoon" authorName="Charles" authorContact="gorka_morka@hotmail.co.uk" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eea8-47a5-f999-2ec2" revision="5" gameSystemId="dcae-d466-7fc2-0d70" gameSystemRevision="1" battleScribeVersion="1.15" name="British Platoon" authorName="Charles" authorContact="gorka_morka@hotmail.co.uk" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="009b-29eb-0b3b-9d1f" name="Comet" points="29.0" categoryId="cdf8-de53-d13e-0639" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -558,7 +558,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="aa1a-f317-0ac2-e0e7" name="Super-velocity Shot" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="aa1a-f317-0ac2-e0e7" name="Super-velocity Shot" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -637,21 +637,6 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="9605-6aa1-473b-a4f2" name="• Wilfred Harris" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="27a7-b71a-38bb-652b" profileTypeId="8482-2824-696e-d5ce" name="• Wilfred Harris" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="2c97-7aef-546c-7aab" name="Crew: Commander Ability" value="+1 Initiative. When drawing Critical cards for the first uncancelled Critical Hit scored by this tank, draw one aditional card. The attacking player chooses one of those cards to discard."/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
     <entry id="6a72-53d9-7b16-0a9f" name="• Joe Ekins" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -661,6 +646,21 @@
         <profile id="89e7-dcc3-75d2-8962" profileTypeId="a30c-26b6-2664-539a" name="• Joe Ekins" hidden="false">
           <characteristics>
             <characteristic characteristicId="677f-3696-69cc-30fe" name="Crew: Gunner Ability" value="This Tank may keep the results of two dice when using the Semi-indirect Fire rule to re-roll when Shooting while Stationary."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="9605-6aa1-473b-a4f2" name="• Wilfred Harris" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="27a7-b71a-38bb-652b" profileTypeId="8482-2824-696e-d5ce" name="• Wilfred Harris" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2c97-7aef-546c-7aab" name="Crew: Commander Ability" value="+1 Initiative. When drawing Critical cards for the first uncancelled Critical Hit scored by this tank, draw one aditional card. The attacking player chooses one of those cards to discard."/>
           </characteristics>
           <modifiers/>
         </profile>
