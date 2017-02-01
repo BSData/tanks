@@ -1,6 +1,10 @@
 # GF9-Tanks
 Gale Force 9: Tanks - The World War II Tank Skirmish Game
 
+01/02/2017 Added all expansion vehicles and cards that were missing. Reorganised Data file entries for easier maintenance in the future. - Nicolas (Trommelbohne)
+
+
+
 V1 GF9_Tanks.gst
 V4 American_Platoon.cat
  - All cards from Starter set, Sherman, and/Pershing Expansions
